@@ -17,7 +17,7 @@ color: white;
 }
   
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
 
   }
   .input{
@@ -42,6 +42,15 @@ font-weight: 600;
     height: 40px;
   }
   
+  a{
+    text-decoration: none;
+  }
+  
+  #para{
+font-weight: 700;
+letter-spacing: 1px;
+color: #363636;
+  }
 
   @keyframes swing {
   0%, 100% { transform: rotate(-30deg); }
@@ -53,9 +62,6 @@ font-weight: 600;
 #img {
   animation: swing 2s infinite ease-in-out;
 }
-  a{
-    text-decoration:none;
-  }
 
 .event{
   margin:50px auto;
@@ -76,8 +82,9 @@ font-weight: 600;
   <div id="container">
   <h1>
     <img id="img" src="logo.png" height="28px" width="30px" style="background:white ;">
-    CREATE AN ACCOUNT
+    FitNation India
   </h1>
+  <div id="para">CREATE AN ACCOUNT</div>
   <form action="" method="post">
   <p> <input type="text" class="input" name="Name" placeholder="Your Name*" required id="name"></p>
   <p>  <input type="text" class="input" name="E-mail" placeholder="Your Email*" required id="mail"></p>
